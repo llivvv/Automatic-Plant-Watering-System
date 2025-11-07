@@ -3,6 +3,16 @@
 ## Wiring: 
 
 Sensor: 
-- A0: Green --> Arduino A0
-- VCC: White --> Arduino 5V pin
-- GND: Blue --> Arduino GND
+- A0: Green --> pin A0
+- VCC: White --> pin 5V
+- GND: Blue --> pin GND
+
+Pump: 
+- Black --> (-)
+- Red --> Relay NO
+
+Relay: 
+- DC+: Orange --> (+)
+- DC-: Blue --> (-)
+- IN: Yellow --> pin 7
+- COM: White --> (+)
